@@ -1,0 +1,44 @@
+[stopped the containers]
+
+✖ 1 part-0 git:(master) ❯❯❯ docker rm 32ac2c0092c6 24cd6676ff8e 4b0bcd3be3a7                                                                                                                              (base)
+32ac2c0092c6
+24cd6676ff8e
+4b0bcd3be3a7
+◆ part-0 git:(master) ❯❯❯ docker images                                                                                                                                                                   (base)
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nodebackend         mcc                 f04f854c1732        2 weeks ago         91.7MB
+<none>              <none>              c13c62b249e7        2 weeks ago         91.7MB
+<none>              <none>              2e286113e5f1        2 weeks ago         91.7MB
+<none>              <none>              6ce24b267e5d        2 weeks ago         91.7MB
+<none>              <none>              188f4d3cebd2        2 weeks ago         91.7MB
+<none>              <none>              1281bc5966ad        2 weeks ago         91.8MB
+<none>              <none>              178fa840640b        2 weeks ago         91.8MB
+<none>              <none>              d13934c7c566        2 weeks ago         91.8MB
+<none>              <none>              7017a906dfb8        2 weeks ago         91.6MB
+<none>              <none>              85eebf99d728        2 weeks ago         91.6MB
+<none>              <none>              fd5f890f4144        2 weeks ago         91.6MB
+<none>              <none>              a7e37eabdb2f        2 weeks ago         91.6MB
+<none>              <none>              fa360fb642a1        2 weeks ago         91.6MB
+<none>              <none>              bf5beb183b69        2 weeks ago         91.6MB
+<none>              <none>              795dbeb9ce3f        2 weeks ago         91.6MB
+exercise_app        latest              20c00ba1ebe1        2 weeks ago         91.6MB
+<none>              <none>              d9dc2a32bae7        2 weeks ago         91.6MB
+<none>              <none>              daf72a36615b        2 weeks ago         91.6MB
+<none>              <none>              d3176fb30119        2 weeks ago         91.6MB
+<none>              <none>              479d1489d3ed        2 weeks ago         91.6MB
+mcc-android         latest              645a956e599f        2 weeks ago         1.22GB
+<none>              <none>              a58d65200583        2 weeks ago         1.19GB
+<none>              <none>              57a417efcc0f        2 weeks ago         213MB
+<none>              <none>              e1a90a0a344b        2 weeks ago         37.7MB
+nginx               latest              231d40e811cd        3 weeks ago         126MB
+node                10-alpine           a0708430821e        3 weeks ago         75.4MB
+mccfirst            latest              ba5ecd581b52        4 weeks ago         5.55MB
+<none>              <none>              e010a70babe1        4 weeks ago         5.55MB
+<none>              <none>              6c86edeb3889        4 weeks ago         5.55MB
+<none>              <none>              5e545e1060a7        4 weeks ago         5.55MB
+alpine              3.10                965ea09ff2eb        7 weeks ago         5.55MB
+mongo               4.2.0               5255aa8c3698        8 weeks ago         361MB
+mysql               5.7.19              3e3878acd190        2 years ago         412MB
+◆ part-0 git:(master) ❯❯❯ docker ps -a                                                                                                                                                                    (base)
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+[censored out personal/work stuff]
