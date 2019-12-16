@@ -1,0 +1,5 @@
+◆ part-0 git:(master) ❯❯❯ docker ps -a                                                                                                                                                                    (base)
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+32ac2c0092c6        nginx               "nginx -g 'daemon of…"   5 seconds ago       Up 4 seconds               80/tcp              task1example_3
+24cd6676ff8e        nginx               "nginx -g 'daemon of…"   8 seconds ago       Up 7 seconds               80/tcp              task1example_2
+4b0bcd3be3a7        nginx               "nginx -g 'daemon of…"   11 seconds ago      Up 10 seconds              80/tcp              task1example_1
