@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+RUN apt-get -y install curl
+
+CMD sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
