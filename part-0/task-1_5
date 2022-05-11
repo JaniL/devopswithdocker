@@ -1,0 +1,20 @@
+docker ps:
+
+devopsdockeruh/simple-web-service                  ubuntu         4e3362e907d5   14 months ago   83MB
+devopsdockeruh/simple-web-service                  alpine         fd312adc88e0   14 months ago   15.7MB
+
+output:
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-05-11 15:12:17 +0000 UTC
+2022-05-11 15:12:19 +0000 UTC
+2022-05-11 15:12:21 +0000 UTC
+2022-05-11 15:12:23 +0000 UTC
+2022-05-11 15:12:25 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-05-11 15:12:27 +0000 UTC
+2022-05-11 15:12:29 +0000 UTC
+2022-05-11 15:12:31 +0000 UTC
+2022-05-11 15:12:33 +0000 UTC
+2022-05-11 15:12:35 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
