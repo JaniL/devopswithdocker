@@ -1,0 +1,21 @@
+# why install node seperately
+# when you can use a ready-made
+# image
+FROM node:16
+
+WORKDIR /usr/app
+
+RUN npm install -g serve
+
+COPY package.json /usr/app
+COPY package-lock.json /usr/app
+
+RUN npm install
+
+COPY . /usr/app
+
+RUN npm run build
+
+EXPOSE 5000
+CMD serve -s -l 5000 build
+
