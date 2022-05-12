@@ -1,0 +1,21 @@
+# commands:
+#
+# docker build -t backend113 .
+# docker run -p 8080:8080 backend113
+#
+# Dockerfile
+
+# again, why start with
+# ubuntu or alpine
+
+FROM golang:1.16
+
+WORKDIR /usr/app
+COPY . /usr/app
+
+RUN go build
+
+ENV REQUEST_ORIGIN="http://127.0.0.1:5000"
+
+CMD ./server
+

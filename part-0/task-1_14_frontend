@@ -1,0 +1,29 @@
+# commands:
+#
+# docker build -t frontend112 .
+# docker run -p 5000:5000 frontend112
+
+# Dockerfile
+
+# why install node seperately
+# when you can use a ready-made
+# image
+FROM node:16
+
+WORKDIR /usr/app
+
+RUN npm install -g serve
+
+COPY package.json /usr/app
+COPY package-lock.json /usr/app
+
+RUN npm install
+
+COPY . /usr/app
+
+ENV REACT_APP_BACKEND_URL="http://127.0.0.1:8080/"
+RUN npm run build
+
+EXPOSE 5000
+CMD serve -s -l 5000 build
+
