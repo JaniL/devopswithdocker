@@ -1,0 +1,7 @@
+# without creating the file caused
+# "is a directory" error
+
+# cd /Users/Jani/fiddling/app
+mkdir app
+touch app/text.log
+docker run -v /Users/jani/fiddling/app/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
