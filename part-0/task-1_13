@@ -1,0 +1,12 @@
+# again, why start with
+# ubuntu or alpine
+
+FROM golang:1.16
+
+WORKDIR /usr/app
+COPY . /usr/app
+
+RUN go build
+
+CMD ./server
+
